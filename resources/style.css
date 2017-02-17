@@ -139,4 +139,18 @@ nav span {
 	margin-bottom: 4px;
 }
 
+/*Footer
+----------------------------------------*/
+
+footer {
+	background: black;
+}
+
+footer > .container {
+	display: flex;
+	align-items: center;
+	color: white;
+	height: 5rem;
+}
+
 

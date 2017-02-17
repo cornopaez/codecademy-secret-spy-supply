@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
 html {
 	font-size: 18px;
 	font-family: "Roboto";
@@ -6,14 +8,17 @@ html {
 .container {
 	max-width: 960px;
 	margin: 0 auto;
-	display: flex;
-	align-items: center;
 }
 
 /*Nav
 -----------------------------------------*/
 nav {
 	background: black;
+}
+
+nav > .container {
+	display: flex;
+	align-items: center;
 }
 
 nav img {
@@ -38,6 +43,10 @@ nav span {
 	background-size: cover;
 }
 
+.banner > .container {
+	display: flex;
+}
+
 .banner .highlight {
 	background: black;
 	color: white;
@@ -55,3 +64,25 @@ nav span {
 .banner .highlight h1 {
 	font-size: 2rem;
 }
+
+/*Menu
+-------------------------------------------*/
+
+.menu {
+	background: firebrick;
+	color: white;
+}
+
+.menu .container > ul {
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu .container ul li {
+	padding: 0.75rem 0;
+}
+
+/*Main
+--------------------------------------------*/
+
+
